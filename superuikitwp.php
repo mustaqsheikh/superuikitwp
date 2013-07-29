@@ -54,8 +54,6 @@ function create_ui()
 
 	$suikit_theme = get_option('suikit_theme');
 
-	if($suikit_theme == '') $suikit_theme = 'uikit';
-
 	?>
 	<form method="POST" action="">
 		<input type="hidden" name="is_update" value="1" />
@@ -70,9 +68,9 @@ function create_ui()
 					</td>
 					<td  style="padding:5px 0;">
 						<select style="width:100px;"  name="suikit_theme">
-							<option value="uikit" <?php if($suikit_theme=='uikit') echo 'selected="selected"'?> >uikit</option>
-							<option value="uikit.gradient" <?php if($suikit_theme=='gradient') echo 'selected="selected"'?> >uikit.gradient.min</option>
-							<option value="uikit.almostflat" <?php if($suikit_theme=='uikit.almostflat') echo 'selected="selected"'?> >uikit.almostflat.min</option>
+							<option value="uikit" <?php if($suikit_theme=='uikit') echo 'selected="selected"'?> >Default Theme</option>
+							<option value="uikit.gradient" <?php if($suikit_theme=='uikit.gradient') echo 'selected="selected"'?> >Gradient Theme</option>
+							<option value="uikit.almostflat" <?php if($suikit_theme=='uikit.almostflat') echo 'selected="selected"'?> >Almost Flat Theme</option>
 						</select>
 					</td>
 					<td style="padding:5px 0;">
