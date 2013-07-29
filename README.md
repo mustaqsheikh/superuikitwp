@@ -3,9 +3,9 @@ Super UIkit for Wordpress
 
 Super UI Kit is a Wordpress Plugin Extension developed by HerdBoy Web Design and Development to integrate the Super Awesome UIkit into your website.
 
-This project is a work in progress. 
+This project is a work in progress. New features are in the works.
 
-The current version if a 100% functional Joomla System plugin installable on Joomla 2.5 and Joomla 3.1
+The current version if a 100% functional Wordpress plugin installable on Wordpress 3.5.
 
 
 Useful to Anyone:
