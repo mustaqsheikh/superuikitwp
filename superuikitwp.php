@@ -105,7 +105,7 @@ function superuikitwp_settings()
 }
 function setup_superuikitwp_settings()
 {
-	 add_options_page('Super UIkit Plugin Options', 'Super UIkit Plugin', 'manage_options', 'superuikitwp', "superuikitwp_settings");
+	 add_options_page('Super UIkit WP Plugin Options', 'Super UIkit WP Plugin', 'manage_options', 'superuikitwp', "superuikitwp_settings");
 }
 add_action('admin_menu','setup_superuikitwp_settings');
 ?>
