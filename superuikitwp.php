@@ -57,7 +57,7 @@ function create_ui()
 	?>
 	<form method="POST" action="">
 		<input type="hidden" name="is_update" value="1" />
-		<div class="metabox-holder" style="width:815px;">
+		<div class="metabox-holder" style="width:auto;">
 			<div class="postbox">
 				<table class="form-table" style="margin:0;">
 				<tr valign="top"><td style="padding:0;width:180px;"><h3>Name</h3></td><td style="padding:0;width:235px;"><h3>Value</h3></td><td style="padding:0;"><h3>Description</td></h3></tr>
@@ -67,7 +67,7 @@ function create_ui()
 						<label for="suikit_theme" style="padding:10px;font-weight:bold;">Super Uikit:</label>
 					</td>
 					<td  style="padding:5px 0;">
-						<select style="width:100px;"  name="suikit_theme">
+						<select style="width:auto;"  name="suikit_theme">
 							<option value="uikit" <?php if($suikit_theme=='uikit') echo 'selected="selected"'?> >Default Theme</option>
 							<option value="uikit.gradient" <?php if($suikit_theme=='uikit.gradient') echo 'selected="selected"'?> >Gradient Theme</option>
 							<option value="uikit.almostflat" <?php if($suikit_theme=='uikit.almostflat') echo 'selected="selected"'?> >Almost Flat Theme</option>
