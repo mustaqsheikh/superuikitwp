@@ -4,7 +4,7 @@ Plugin Name: Super UIkit For WordPress
 Plugin URI: http://herdboy.com
 Description: Super UI Kit is a Wordpress Plugin Extension developed by HerdBoy Web Design and Development to integrate the Super Awesome UIkit into your website..
 Author: Mustaq Sheikh
-Version: 1.0.1
+Version: 1.0.2
 Author URI: http://www.herdboy.com
 */
 
@@ -32,7 +32,7 @@ function register_css() {
 	}
 	else if($suikit_theme == 'uikit.almostflat')
 	{
-		wp_register_style('uikit.almostflat', WP_PLUGIN_URL .'/superuikitwp/assets/css/uikit.almostflat.min.css', '', '1.0.1');
+		wp_register_style('uikit.almostflat', WP_PLUGIN_URL .'/superuikitwp/assets/css/uikit.almost-flat.min.css', '', '1.0.1');
 		wp_enqueue_style('uikit.almostflat');
 	}
 }
