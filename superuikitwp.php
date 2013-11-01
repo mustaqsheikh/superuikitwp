@@ -4,7 +4,7 @@ Plugin Name: Super UIkit For WordPress
 Plugin URI: http://herdboy.com
 Description: Super UI Kit is a Wordpress Plugin Extension developed by HerdBoy Web Design and Development to integrate the Super Awesome UIkit into your website..
 Author: Mustaq Sheikh
-Version: 1.1.0
+Version: 1.2.0
 Author URI: http://www.herdboy.com
 */
 
@@ -12,7 +12,7 @@ function register_scripts() {
 	$scripturl = WP_PLUGIN_URL .'/superuikitwp/assets/js/';
 	if ( !is_admin() ) {
 		wp_enqueue_script('jquery');
-		wp_register_script('superuikitwp', $scripturl.'uikit.min.js', '', '1.0.1', true);
+		wp_register_script('superuikitwp', $scripturl.'uikit.min.js', '', '1.2.0', true);
 		wp_enqueue_script('superuikitwp');
 	}
 }
@@ -22,17 +22,17 @@ function register_css() {
 
 	if($suikit_theme == 'uikit')
 	{
-		wp_register_style('uikit', WP_PLUGIN_URL .'/superuikitwp/assets/css/uikit.min.css', '', '1.0.1');
+		wp_register_style('uikit', WP_PLUGIN_URL .'/superuikitwp/assets/css/uikit.min.css', '', '1.2.0');
 		wp_enqueue_style('uikit');
 	}
 	else if($suikit_theme == 'uikit.gradient')
 	{
-		wp_register_style('uikit.gradient', WP_PLUGIN_URL .'/superuikitwp/assets/css/uikit.gradient.min.css', '', '1.0.1');
+		wp_register_style('uikit.gradient', WP_PLUGIN_URL .'/superuikitwp/assets/css/uikit.gradient.min.css', '', '1.2.0');
 		wp_enqueue_style('uikit.gradient');
 	}
 	else if($suikit_theme == 'uikit.almostflat')
 	{
-		wp_register_style('uikit.almostflat', WP_PLUGIN_URL .'/superuikitwp/assets/css/uikit.almost-flat.min.css', '', '1.0.1');
+		wp_register_style('uikit.almostflat', WP_PLUGIN_URL .'/superuikitwp/assets/css/uikit.almost-flat.min.css', '', '1.2.0');
 		wp_enqueue_style('uikit.almostflat');
 	}
 }
